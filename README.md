@@ -9,7 +9,7 @@
 ### Run sample build
 
 - Clone the repository
-- Update the browserstack.yml file by replacing YOUR_USERNAME and YOUR_ACCESS_KEY with your actual BrowserStack credentials.
+- Replace YOUR_USERNAME and YOUR_ACCESS_KEY with your BrowserStack access credentials in browserstack.yml.
 - Install dependencies `mvn compile`
 - To run the test suite having cross-platform with parallelization, run `mvn test -P sample-test`
 - To run local tests, run `mvn test -P sample-local-test`
